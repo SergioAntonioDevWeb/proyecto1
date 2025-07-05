@@ -63,3 +63,27 @@ footer a {
     color: #ffd60a;
     text-decoration: none;
 }
+
+/* Estilos Responsive */
+@media (max-width: 768px) {
+    header {
+        padding: 1.5rem 1rem;
+    }
+
+    .subtitulo {
+        font-size: 1rem;
+    }
+
+    .foto img {
+        width: 250px;
+        height: 250px;
+    }
+
+    section {
+        padding: 0 1rem;
+    }
+
+    footer {
+        padding: 0.9rem;
+    }
+}
